@@ -3,6 +3,7 @@ This is a multi-page personal portfolio website built using **only core HTML**
 ## Pages Included
 - Home
 - Education
+- Skills
 - Contact Me
 ## Features
 - Proper HTML structure
