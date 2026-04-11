@@ -2,35 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Shantanu Kakad</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page-shell">
+        <header class="site-header surface">
+            <a class="brand" href="index.html">Shantanu Kakad</a>
+            <nav class="main-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="education.html">Education</a>
+                <a href="skills.html">Skills</a>
+                <a class="active" href="contact.html">Contact</a>
+            </nav>
+        </header>
 
-    <h1>Contact Me</h1>
-    <hr>
+        <main>
+            <section class="page-hero surface">
+                <p class="eyebrow">Contact</p>
+                <h1>Let's connect and start a conversation</h1>
+                <p>
+                    If you want to reach out for learning, collaboration, or networking,
+                    you can email me directly or leave a message in the form below.
+                </p>
+            </section>
 
-    <h2>Contact Details</h2>
-    <p>Email: shantanukakad2007@gmail.com</p>
-    
-    <hr>
-    <h2>Contact Form</h2>
-    <form>
-        <label>Name:</label><br>
-        <input type="text"><br><br>
+            <section class="contact-layout">
+                <article class="section-card surface contact-card">
+                    <div class="section-heading">
+                        <p class="eyebrow">Contact Details</p>
+                        <h2>Reach me directly</h2>
+                    </div>
+                    <p>Email is the best way to contact me right now.</p>
+                    <a class="button primary" href="mailto:shantanukakad2007@gmail.com">shantanukakad2007@gmail.com</a>
+                </article>
 
-        <label>Email:</label><br>
-        <input type="email"><br><br>
+                <article class="section-card surface">
+                    <div class="section-heading">
+                        <p class="eyebrow">Message Form</p>
+                        <h2>Send a quick note</h2>
+                    </div>
+                    <form class="contact-form">
+                        <div class="field-group">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" placeholder="Your name" required>
+                        </div>
 
-        <label>Message:</label><br>
-        <textarea rows="5"></textarea><br><br>
+                        <div class="field-group">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="your@email.com" required>
+                        </div>
 
-        <input type="submit" value="Send">
-    </form>
+                        <div class="field-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                        </div>
 
-    <hr>
-    <a href="index.html">Back to Home</a>
+                        <button class="button primary" type="submit">Send Message</button>
+                        <p class="form-note">This form is currently a front-end design element and can be connected to a backend later.</p>
+                    </form>
+                </article>
+            </section>
+        </main>
 
+        <footer class="site-footer"><a class="inline-link" href="index.html">Back to Home</a></footer>
+    </div>
 </body>
 </html>
-
-
