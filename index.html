@@ -1,44 +1,92 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Portfolio</title>
-    </head>
-    <body>
-        <h1>Shantanu Bajirao Kakad</h1>
-        <p>Computer Science Engineering Student</p>
-        <img src="Photograph.jpeg" alt="Profile Image" width="100">
-        <hr>
-        <ul>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-        <hr>
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science Engineering student interested in
-            Cloud Computing, Cyber Security , DevOPs and Software Engineering.
-        </p>
-        <hr>
-        <h2>Links</h2>
-        <ul>
-            <li>
-                GitHub:
-                <a href="https://github.com/ShanByte" target="_blank" >
-                    https://github.com/ShanByte
-                </a>
-            </li>
-            <li>
-                LinkedIn:
-                <a href="https://www.linkedin.com/in/shanbyte/" target="_blank" >
-                    https://www.linkedin.com/in/shanbyte/
-                </a>
-            </li>
-        </ul>
-    </body>
-    </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shantanu Kakad | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="site-header surface">
+            <a class="brand" href="index.html">Shantanu Kakad</a>
+            <nav class="main-nav" aria-label="Primary">
+                <a class="active" href="index.html">Home</a>
+                <a href="education.html">Education</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
 
-   
+        <main>
+            <section class="hero">
+                <div class="hero-copy surface">
+                    <p class="eyebrow">Computer Engineering Student</p>
+                    <h1>Building a strong foundation in engineering, Linux, and the web.</h1>
+                    <p class="lead">
+                        I am Shantanu Bajirao Kakad, a Computer Engineering student interested in
+                        Cloud Computing, Cyber Security, DevOps, and Software Engineering.
+                    </p>
 
+                    <div class="action-row">
+                        <a class="button primary" href="education.html">Explore Education</a>
+                        <a class="button secondary" href="contact.html">Contact Me</a>
+                    </div>
 
+                    <ul class="chip-list">
+                        <li>Cloud Computing</li>
+                        <li>Cyber Security</li>
+                        <li>DevOps</li>
+                        <li>Software Engineering</li>
+                    </ul>
+                </div>
+
+                <aside class="profile-panel surface">
+                    <img
+                        class="profile-photo"
+                        src="Photograph.jpeg"
+                        alt="Portrait of Shantanu Bajirao Kakad"
+                    >
+                    <div class="profile-note">
+                        <p class="note-label">Current Focus</p>
+                        <p>Strengthening Python, Git, Linux, and front-end fundamentals one project at a time.</p>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="section-grid">
+                <article class="section-card surface">
+                    <div class="section-heading">
+                        <p class="eyebrow">About Me</p>
+                        <h2>A focused learner with a practical mindset</h2>
+                    </div>
+                    <p>
+                        I enjoy learning by building. My journey so far has included programming fundamentals,
+                        Linux practice, Git and GitHub, and creating web pages with core HTML. I am now growing
+                        that foundation with CSS and deeper technical study.
+                    </p>
+                </article>
+
+                <article class="section-card surface">
+                    <div class="section-heading">
+                        <p class="eyebrow">Profiles</p>
+                        <h2>Find my work and professional presence</h2>
+                    </div>
+                    <ul class="link-list">
+                        <li>
+                            <span>GitHub</span>
+                            <a href="https://github.com/ShanByte" target="_blank" rel="noreferrer">github.com/ShanByte</a>
+                        </li>
+                        <li>
+                            <span>LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/shanbyte/" target="_blank" rel="noreferrer">linkedin.com/in/shanbyte</a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+
+        <footer class="site-footer">Built with core HTML and custom CSS.</footer>
+    </div>
+</body>
+</html>
